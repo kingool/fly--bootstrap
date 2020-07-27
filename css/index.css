@@ -1,0 +1,838 @@
+.coverBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    display: none;
+}
+
+header {
+    background-color: #333;
+}
+
+header .my_nav {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #333;
+    border: none;
+}
+
+header .my_nav .navbar-header .navRight {
+    float: right;
+    margin: 0;
+}
+
+header .my_nav .navbar-header .navRight li {
+    float: left;
+}
+
+header .my_nav .navbar-header .navRight li a {
+    padding: 25px 5px;
+}
+
+header .my_nav .navbar-toggle {
+    margin: 16px 15px 16px 0;
+}
+
+header .navbar-default .navbar-toggle:hover, header .navbar-default .navbar-toggle:focus {
+    background: none;
+}
+
+header .my_nav .navBtn {
+    border: none;
+    color: #fff;
+}
+
+header .navbar-brand {
+    padding: 18px 0;
+    width: 102px;
+}
+
+header .navbar-default .navbar-nav>li>a {
+    /* height: 70px;
+    line-height: 40px; */
+    padding: 25px 15px;
+    color: #fff;
+}
+
+header .navbar-default .navbar-nav>li>a .glyphicon {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+}
+
+/* 左侧移动盒子的css */
+
+header .navMoveBox {
+    width: 260px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -260px;
+    background: #fff;
+    z-index: 2;
+}
+
+header .navMoveBox .moveHeader div {
+    padding: 15px 0;
+    text-align: center;
+    width: 50%;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+header .navMoveBox .moveHeader div:first-child {
+    border-right: 1px solid #ddd;
+}
+
+header .navMoveBox .kefuBox {
+    width: 154px;
+    padding: 14px 0;
+    text-align: center;
+    background: #555;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+
+header .navMoveBox .list-group li {
+    border-right: none;
+    border-left: none;
+    cursor: pointer;
+    transition: padding-left 0.5s;
+}
+
+header .navMoveBox .list-group li:hover {
+    background-color: #f2f2f2;
+    padding-left: 20px;
+}
+
+/* 简介栏 */
+
+.infoBox img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.infoBox {
+    position: relative;
+}
+
+.infoBox video {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.infoBox .infoContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.infoBox .infoContent .infoContainer {
+    padding: 0 40px;
+}
+
+.infoBox .infoContent .infoContainer .infoText-1 {
+    text-align: center;
+}
+
+.infoBox .infoContent .infoContainer .infoText-1 .text-1 {
+    margin-top: 80px;
+    font-size: 40px;
+    color: #c3c3c3;
+}
+
+.infoBox .infoContent .infoContainer .infoText-1 .text-1 b {
+    animation: buling 0.8s infinite;
+}
+
+@keyframes buling {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.infoBox .infoContent .infoContainer .infoText-1 .text-2 {
+    font-size: 22px;
+    color: rgb(195, 195, 195);
+    margin: 50px 0;
+}
+
+.infoBox .infoContent .infoContainer .infoText-1 .text-3 {
+    padding: 15px 60px;
+    border: 1px solid #fff;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.infoBox .infoContent .infoIcon {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.infoBox .infoContent .infoContainer .infoText-2 {
+    text-align: center;
+}
+
+.infoBox .infoContent .infoContainer .infoText-2 .text-1 {
+    margin-top: 60px;
+    font-size: 46px;
+    color: #fff;
+}
+
+.infoBox .infoContent .infoContainer .infoText-2 .text-2 {
+    font-size: 20px;
+    color: #fff;
+    margin: 15px 0 70px;
+}
+
+.infoBox .infoContent .infoContainer .infoText-2 .text-3 {
+    padding: 22px 38px;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgb(54, 133, 190);
+    background-color: rgb(54, 133, 190);
+}
+
+/* 视频盒子 */
+
+.conBox {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.conBox .conTitle {
+    font-size: 56px;
+    color: #333;
+    padding-bottom: 15px;
+}
+
+.conBox .fuTitle {
+    font-size: 20px;
+    color: #666;
+}
+
+.conBox .fuTitle p {
+    padding-bottom: 15px;
+}
+
+.video {
+    position: relative;
+    width: 917px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.video .tvBg {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/tv.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.video .viedeoBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 115px;
+    z-index: -1;
+}
+
+.conBox .imgBox {
+    padding: 0 50px;
+}
+
+/* 内容列表盒子 */
+
+.rowBox, .workBox {
+    background: #f9f9f9;
+    padding: 70px 0;
+}
+
+.rowBox .rowImg {
+    margin-top: 30px;
+}
+
+.rowBox .rowTitle {
+    font-size: 40px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.rowBox .rowContent {
+    color: rgb(105, 105, 105);
+    line-height: 2.5;
+}
+
+.dbRowBox {
+    background: #fff;
+}
+
+.dbRowBox .rowTitle {
+    color: #3ea3ff;
+}
+
+/* 性能栏 */
+
+.workBox {
+    text-align: center;
+}
+
+.workBox .workTitle {
+    font-size: 40px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.workBox .workFuTitle {
+    font-size: 16px;
+    color: #494949;
+}
+
+.workBox .row .col-md-4 {
+    padding: 0 5px;
+}
+
+.workBox .row .col-md-4 .colBox {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 30px 0;
+    transition: all 0.5s;
+    margin-top: 10px;
+}
+
+.workBox .row .col-md-4 .colBox p {
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+/* .workBox .row .col-md-4 .colBox .imgBox .img2{
+    display: none;
+    
+} */
+
+.workBox .row .col-md-4 .colBox:hover {
+    border-color: #3ea3ff;
+    background: #fff;
+}
+
+/* .workBox .row .col-md-4 .colBox:hover .imgBox .img2{
+    display: block;
+    margin: 0 auto;
+}
+.workBox .row .col-md-4 .colBox:hover .imgBox .img1{
+    display: none;
+} */
+
+.workBox .row .col-md-4 .colBox .imgBox {
+    position: relative;
+    width: 82px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.workBox .row .col-md-4 .colBox .imgBox .img1, .workBox .row .col-md-4 .colBox .imgBox .img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.workBox .row .col-md-4 .colBox .imgBox .img2 {
+    opacity: 0;
+}
+
+.workBox .row .col-md-4 .colBox:hover .img1 {
+    opacity: 0;
+}
+
+.workBox .row .col-md-4 .colBox:hover .img2 {
+    opacity: 1;
+}
+
+/* 模板轮播图的css */
+
+.muBnBanner {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.muBnBanner .bannerTitle {
+    font-size: 40px;
+    color: #333;
+    padding: 30px 0;
+}
+
+.muBnBanner .bannerFuTitle {
+    font-size: 18px;
+    color: #a9a9a9;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.bannerBox {
+    position: relative;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.bannerList {
+    width: 200%;
+    margin-left: 0px
+}
+
+.bannerList li {
+    width: 12.5%;
+    float: left;
+    padding: 0 15px;
+}
+
+.prevBtn, .nextBtn {
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 100%;
+    background-color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.prevBtn span, .nextBtn span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -15px;
+    width: 15px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.prevBtn {
+    left: 0;
+}
+
+.nextBtn {
+    right: 0;
+}
+
+
+/* 用户作品展示 */
+.userWorksBox{
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 80px 0;
+}
+.userWorksBox .userTitle{
+    font-size: 36px;
+    color: #393939;
+    padding: 30px 0;
+}
+.userWorksBox .userFuTitle{
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+    padding-bottom: 30px;
+}
+.userWorksBox .moreWorks a{
+    padding: 8px 50px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(97, 176, 255);
+    text-decoration: none;
+    border-radius: 16px;
+}
+.userWorksBox .moreWorks a:hover{
+    background-color: rgb(62,162,255);
+}
+
+/* 介绍栏 */
+.intBox{
+    padding: 80px 0;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/bg2.jpg);
+}
+.intBox .intTitle{
+    font-size: 40px;
+    padding: 20px 0;
+}
+.intBox .intFuTitle{
+    padding: 35px 0;
+    font-size: 14px;
+}
+
+/* 合作伙伴 */
+.partnerBox{
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+.partnerTitle{
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+.partnerBox .col-sm-3{
+    padding: 0 5px;
+}
+.parCol{
+    padding: 30px 0;
+    border: 1px solid rgb(219,219,219);
+}
+.parCol img{
+    width: 110px;
+    margin: 0 auto;
+    padding: 10px 0 30px;
+}
+.parCol p{
+    font-size: 18px;
+    color: #696969;
+    margin: 0;
+}
+
+/* 客户与评价 */
+.ctmBox{
+    padding: 80px 0;
+    text-align: center;
+}
+.ctmBox .ctmTitle{
+    font-size: 36px;
+    color: #393939;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 20px 0;
+}
+.ctmBox .cmtFuTitle{
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+    padding-top: 10px;
+}
+/* .ctmBox .ctmContent{
+    height: 400px;
+} */
+.ctmBox .ctmContent .imgBox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.ctmBox .ctmContent .imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 1s;
+
+}
+.ctmBox .ctmContent .imgBox .img2{
+    opacity: 0;
+}
+.ctmBox .ctmContent .imgBox:hover .img1{
+    opacity: 0;
+}
+.ctmBox .ctmContent .imgBox:hover .img2{
+    opacity: 1;
+}
+.ctnBanner .carousel-inner{
+    padding: 0 44px;
+}
+.ctnBanner .carousel-inner .item .col-sm-3 img{
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+
+}
+.ctnBanner .carousel-inner .item .col-sm-9 .ctmText{
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.8;
+    color: rgb(136, 136, 136)
+}
+.ctnBanner .carousel-inner .item .col-sm-9 .ctmName{
+    text-align: right;
+    color: rgb(73, 73, 73);
+    font-size: 16px;
+}
+.ctnBanner .carousel-control.left,
+.ctnBanner .carousel-control.right{
+    width: 44px;
+    background: none;
+    opacity: 0.9;
+}
+.ctnBanner .carousel-control.left span,
+.ctnBanner .carousel-control.right span{
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+    background-color: rgba(0,0,0,0.7);
+}
+/* 指示点 */
+.ctnBanner .carousel-indicators li{
+    background-color: #cecece;
+}
+.ctnBanner .carousel-indicators li.active{
+    background-color: #5fb0ff;
+}
+.ctnBanner .carousel{
+    padding-bottom: 50px;
+}
+
+/* 工作时间 */
+.text-16{
+    font-size: 16px;
+    color: #000;
+}
+.text-22{
+    font-size: 22px;
+    color: rgb(51, 51, 51)
+}
+.text-14{
+    font-size: 14px;
+    color: #494949;
+}
+.kefuBox{
+    padding: 50px 0;
+}
+.kefuBox img{
+    width: 95px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 友情链接*/
+.linkBox .link{
+    padding: 10px 0;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    color: rgb(97, 176, 255)
+}
+.linkBox .link a{
+    color: rgb(97, 176, 255);
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+/* 底部css */
+.footBox{
+    padding-top: 50px;
+}
+.blockText{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(39, 55, 79);
+}
+.blockText a{
+    color: #61b0ff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.text{
+    padding: 22px 0;
+    color: #383838;
+    font-size: 13px;
+}
+.ftImg>div{
+    padding: 0 5px;
+}
+.footBox .col-md-8 .blockText{
+    padding-bottom: 22px;
+}
+.footBox .col-md-8 p{
+    margin-bottom: 14px;
+}
+.footBox .col-md-8 p a{
+    color: #27374f;
+    text-decoration: none;
+    font-size: 13px;
+}
+.footBox .col-md-8 p a:hover{
+    color: #61b0ff;
+}
+.footBox .footText{
+    text-align: center;
+}
+.footBox .footText .foot-1{
+    margin-top: 10px;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0;
+}
+.footBox .footText .foot-2{
+    font-size: 12px;
+}
+.footBox .footText .foot-2 span{
+    margin-right: 10px;
+}
+.footBox .footText .foot-2 .imgText{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footBox .footText .foot-2 .imgText img{
+    vertical-align: middle;
+}
+.footBox .footText .foot-3{
+    padding: 15px 0;
+}
+.footBox .footText .foot-3 img{
+    width: 32px;
+    height: 45px;
+
+}
+.footBox .footText .foot-4{
+    color: #27374F;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+/* 右侧菜单的css */
+.rightFixBox{
+    position: fixed;
+    top: 40%;
+    right: 0;
+}
+.rightFixBox li .item{
+    cursor: pointer;
+    width: 54px;
+    height: 54px;
+    background-color: rgb(49, 53, 61);
+    overflow: hidden;
+    transition: width 2s;
+    float: right;  /* 脱离文档流 使其宽度不影响父元素*/
+    white-space: nowrap; /* 强制元素不换行*/
+}
+.rightFixBox li .item i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 12px;
+    background-image: url(../img/pic.png);
+    vertical-align: middle;
+}
+.rightFixBox li .box1 i{
+    background-position: -40px 0;
+}
+.rightFixBox li .box2 i{
+    background-position: -40px -184px;
+}
+.rightFixBox li .box3 i{
+    background-position: -40px -80px;
+}
+.rightFixBox li .box4 i{
+    background-position: -40px -40px;
+}
+
+.rightFixBox li .item span{
+    font-size: 16px;
+    color: #fff;
+}
+.rightFixBox li .item:hover{
+    background-color: rgb(62, 163, 255);
+    width: 154px;
+}
+.rightFixBox li .box3:hover{
+    width: 54px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    header .navbar-brand {
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+    .infoBox .infoContent .infoContainer .infoText-2 .text-1 {
+        font-size: 40px;
+    }
+    .rowBox {
+        text-align: center;
+    }
+    .rowBox .rowTitle {
+        font-size: 30px;
+    }
+    .rowBox .rowContent {
+        font-size: 12px;
+    }
+    .intBox .intTitle{
+        font-size: 30px;
+    }
+    .intBox .intFuTitle{
+        font-size: 12px
+    }
+    .parCol{
+        padding: 0;
+    }
+    .parCol img{
+        padding: 10px;
+    }
+    .partnerBox .col-xs-6{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:300px) {
+    header .navbar-brand {
+        display: none
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .conBox .conTitle {
+        font-size: 30px;
+    }
+    .conBox .fuTitle {
+        font-size: 14px;
+    }
+    .rowBox {
+        text-align: center;
+    }
+}
+
+/* 动画属性 */
+.dh1{
+    animation: dh1 3s;
+}
+@keyframes dh1{
+    from{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

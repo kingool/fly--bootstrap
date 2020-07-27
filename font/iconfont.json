@@ -1,0 +1,30 @@
+{
+  "id": "1471914",
+  "name": "qifei",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "647470",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "3794317",
+      "name": "shop-cart",
+      "font_class": "shop-cart",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "9004962",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    }
+  ]
+}
